@@ -1,4 +1,4 @@
-//  12. - Create complex multi-dimensional arrays
+//  12. - Add Key-Value Pairs to JavaScript Objects
 
 let myNestedArray = [
     // Only change code below this line
