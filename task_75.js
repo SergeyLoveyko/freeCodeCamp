@@ -4,24 +4,21 @@ const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey"
 
 function golfScore(par, strokes) {
     // Only change code below this line
-    if ((par - 3) == strokes) {
-        console.log(par - 3);
-        return "Hole-in-one!";
-    } else if ((par - 2) <= strokes) {
-        console.log(par - 2);
-        return "Eagle";
+
+    if (strokes === 1) {
+        return names[0];
+    } else if (strokes === 2) {
+        return names[1];
     } else if ((par - 1) == strokes) {
-        console.log(par - 1);
-        return "Birdie";
+        return names[2];
     } else if (par == strokes) {
-        console.log(par == strokes);
-        return "Par";
+        return names[3];
     } else if ((par + 1) == strokes) {
-        return "Bogey";
+        return names[4];
     } else if ((par + 2) == strokes) {
-        return "Double Bogey";
-    } else if ((par + 3) >= strokes) {
-        return "Go Home!";
+        return names[5];
+    } else {
+        return names[6];
     }
 
     return "Change Me";
