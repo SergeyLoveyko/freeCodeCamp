@@ -1,4 +1,4 @@
-//  2. - Create a Method on an Object
+//  3. - Create a Method on an Object
 
 let dog = {
   name: "Spot",
